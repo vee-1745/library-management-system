@@ -14,6 +14,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/books", require("./src/routes/bookRoutes"));
+app.use("/api/members", require("./src/routes/memberRoutes"));
+app.use("/api/transactions", require("./src/routes/transactionRoutes"));
 
 app.use(notFound);
 app.use(errorHandler);
