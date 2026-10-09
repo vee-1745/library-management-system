@@ -2,8 +2,8 @@
 
 NoSQL Lab project: a full-stack library management app.
 
-**Live demo:** <vercel url>
-**API:** <render url>
+**Live demo:** [<vercel url>](https://library-management-system-plum-rho.vercel.app/)
+**API:** [<render url>](https://library-api-ny2z.onrender.com/)
 
 ## Tech stack
 - Database: MongoDB Atlas (Mongoose ODM)
